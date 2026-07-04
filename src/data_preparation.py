@@ -36,9 +36,9 @@ def check_dataframe(dataframe: pd.DataFrame, head_count: int = 10) -> bool:
     is_integrated = total_rows == unique_ids
 
     if is_integrated:
-        print("✔️ SUCCESS: All master_id values are unique. Data integrity is verified.")
+        print("SUCCESS: All master_id values are unique. Data integrity is verified.")
     else:
-        print("⚠️ WARNING: Duplicate master_id values detected! Dynamic aggregation will be applied.")
+        print("WARNING: Duplicate master_id values detected! Dynamic aggregation will be applied.")
 
     print("\n==================== DATA TYPES & INFOS ====================")
     print(dataframe.info())
