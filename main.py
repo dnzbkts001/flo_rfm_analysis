@@ -16,7 +16,7 @@ def main():
     configure_pandas()
     csv_path = os.path.join("data", "flo_data_20k.csv")
 
-    print("🚀 FLO RFM Analiz Projesi Çalıştırılıyor...\n")
+    print("FLO RFM Analiz Projesi Çalıştırılıyor...\n")
 
     # Görev 1: Veri Ön Hazırlık Süreci
     df_prepared = create_rfm_dataframe(csv_path)
