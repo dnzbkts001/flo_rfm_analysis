@@ -1,0 +1,21 @@
+# Python Virtual Environment (Sanal Ortam)
+.venv/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+
+# Data Files (Büyük ve ham veri setlerini engelliyoruz)
+data/
+
+# PyCharm/IDE Settings
+.idea/
+.vscode/
+
+# OS backup files
+.DS_Store
+Thumbs.db
